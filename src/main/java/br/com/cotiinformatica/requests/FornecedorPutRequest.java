@@ -5,13 +5,12 @@ import lombok.Setter;
 
 @Setter
 @Getter
-public class ProdutoPostRequest {
+public class FornecedorPutRequest {
 
-	private String nome;
-	private String descricao;
-	private Double preco;
-	private Integer quantidade;
 	private Integer idFornecedor;
+	private String nome;
+	private String cnpj;
+
 }
 
 
